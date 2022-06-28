@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap');
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: #0f141e;
+    background: #f1f1f1;
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+@media (max-width:700px) {
+    .info {margin-bottom: 10px;
+        display: block;
+    text-align: center;}
+}
+
+.info img {
+    padding: 0;
+    margin: 0;
+}
+
+.info-text {
+    padding: 0;
+    margin: 0;
+}
+
+.info-text p {
+    margin: 20px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    color: #86898f
+}
+
+.info-text h1 {
+    margin:  20px;
+    color: #00FA9A
+}
+
+.social {
+    margin: 20px;
+}
+
+.card {
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-bottom: 20px;    
+}
+
+.card h2{
+    margin-bottom: 20px;
+}
+
+.bg-yellow{
+    background: #fff9dc;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.bg-green{
+    background: #e5ffe7;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.avatar {
+    width: 200px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 14px rgba(0,0,0,0.25);
+    border-radius: 30px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color:blue;
+}
+
+a:visited {
+    color: gray;
+}
+
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.btn:hover {
+    opacity: .8;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+}
+
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: #86898f;
+}
+
+.contact_title {
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.contact {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    display: inline-block;
+}
+.line {
+    margin-top: 0;
+    color: #86898f;
+}
+
+.conect {
+    display: flex;
+}
+
+@media (max-width:700px) {
+    .conect { display: block;
+    }
+
+}
+
+.card_conect {
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.conect_name {
+    margin: 10px;
+    border: 0;
+    padding: 0;
+}
+
+.conect_name label {
+    width: 100%;
+    font-family: inherit;
+    color: #86898f;
+    margin-bottom: 15px;
+}
+
+.conect_name input {
+    width: 100%;
+    font-family: inherit;
+    font-size: 15px;
+    color: black;
+    background-color: #f1f1f1;
+}
+
+.conect_email {
+    margin: 10px;
+    border: 0;
+    padding: 0;
+}
+
+.conect_email label {
+    width: 100%;
+    font-family: inherit;
+    color: #86898f;
+    margin-bottom: 15px;
+}
+
+.conect_email input {
+    width: 100%;
+    font-family: inherit;
+    font-size: 15px;
+    color: black;
+    background-color: #f1f1f1;
+}
+
+.massage {
+    margin: 20px 0 20px 20px;
+}
+
+.massage label {
+    font-family: inherit;
+    color: #86898f;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.massage textarea {
+    display: block;
+    width: 100%;
+    font-family: inherit;
+    font-size: 15px;
+    background-color: #f1f1f1;
+    border: 0;
+    border-bottom: solid #86898f 1px;
+}    
